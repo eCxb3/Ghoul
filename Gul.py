@@ -7,12 +7,10 @@ async def ed(e):
     await e.edit("Я гуль")
     sleep(2)
     a = 1000
-    while True: 
+    while c > 0: 
         c = a - 7
         await e.respond(str(a) + " - 7 = " + str(c))
-        if c < 0:
-            await e.respond("l l let me die")
-            break
-        else:
-            a = c
+        a = c
+    await e.respond("l l let me die")
+            
         
