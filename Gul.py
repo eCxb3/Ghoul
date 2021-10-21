@@ -7,7 +7,7 @@ async def ed(e):
     await e.edit("Я гуль")
     sleep(2)
     a = 1000
-    while c > 0: 
+    while a > -7:
         c = a - 7
         await e.respond(str(a) + " - 7 = " + str(c))
         a = c
