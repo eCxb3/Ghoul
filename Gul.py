@@ -11,6 +11,6 @@ async def ed(e):
         c = a - 7
         await e.respond(str(a) + " - 7 = " + str(c))
         a = c
-    await e.respond("l l let me die")
+    await e.respond("l l let me die haha")
             
         
